@@ -1,0 +1,70 @@
+:root{
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --light-grayish-blue: hsla(229, 6%, 66%,20%);
+}
+
+body{
+    margin:0;
+    font-family: "Poppins",sans-serif;
+    background: var(--light-grayish-blue);
+    color: var(--grayish-blue);
+}
+
+main{
+    padding: 0 1.5rem;
+}
+
+h1,h2,p{
+    margin:0;
+}
+
+article{
+    border-top: 5px solid var(--border-color, black);
+    border-radius: .25rem;
+    overflow: hidden;
+    background: var(--very-light-gray);
+    padding: 1.5rem 2rem;
+}
+
+section>div, article+article{
+    margin-top: 1.5rem;
+}
+
+h1,h2{
+    color: var(--very-dark-blue);
+}
+
+h1{
+    font-weight: 200;
+}
+
+h1 span{
+    font-weight: 600;
+}
+
+.supervisor{
+    --border-color: var(--cyan);
+}
+
+.team-builder{
+    --border-color: var(--red);
+}
+
+.karma{
+    --border-color: var(--orange);
+}
+
+.calculator{
+    --border-color: var(--blue);
+}
+
+.img-container{
+    text-align: end;
+    margin-top: 2rem;
+}
