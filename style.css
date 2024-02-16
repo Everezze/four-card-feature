@@ -6,13 +6,13 @@
     --very-dark-blue: hsl(234, 12%, 34%);
     --grayish-blue: hsl(229, 6%, 66%);
     --very-light-gray: hsl(0, 0%, 98%);
-    --light-grayish-blue: hsla(229, 6%, 66%,20%);
+    --white: hsl(0,0,100%);
 }
 
 body{
     margin:0;
     font-family: "Poppins",sans-serif;
-    background: var(--light-grayish-blue);
+    background: var(--very-light-gray);
     color: var(--grayish-blue);
     min-height: 100vh;
 }
@@ -31,7 +31,7 @@ article{
     border-top: 5px solid var(--border-color, black);
     border-radius: .25rem;
     overflow: hidden;
-    background: var(--very-light-gray);
+    background: var(--white);
     padding: 1.5rem 1.75rem;
     box-shadow: 0 10px 30px -10px var(--grayish-blue);
 }
